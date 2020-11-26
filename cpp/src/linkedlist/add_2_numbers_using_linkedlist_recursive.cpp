@@ -1,3 +1,12 @@
+/*
+* Copyright 2020 @LeafCode
+*
+* This code is to add two long integers using linkedlist data structure recursively
+* Using this approach makes this flexible to add long enough integers beyond the
+* capacity of any integer or long integer data type supported
+*
+*/
+
 #include <iostream>
 #include <string>
 
