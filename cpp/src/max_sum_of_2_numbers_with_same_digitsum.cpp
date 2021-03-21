@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include <vector>
-#include <map>
+#include <unordered_map>
 
 using namespace std;
 
@@ -32,11 +32,11 @@ return dsum;
 
 int maxsum_of_2_numbers_with_same_digitsum (vector <int> & nums) {
 
-	int 					len = nums.size();
-	map < int, vector<int> >		m;
-	map < int, vector<int> >:: iterator 	itr;
-	int 					tmp = 0;
-	int 					max = -1;
+	int 						len = nums.size();
+	unordered_map < int, vector<int> >		m;
+	unordered_map < int, vector<int> >:: iterator 	itr;
+	int 						tmp = 0;
+	int 						max = -1;
 	
 
 	for (int i = 0; i < len; i++) {
